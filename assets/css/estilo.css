@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+
+body {
+    background-color: #ffe4c4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
+    margin: auto;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.menu_top {
+    margin-bottom: 70px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 22px;
+    font-family: 'Yomogi', cursive;
+    font-weight: bold;
+}
+
+li {
+    margin-right: 30px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 650px;
+    background-image: url(../images/banner.jpg);
+    background-size: 100% 111%;
+    background-repeat: no-repeat;
+}
+
+.grao {
+    width: 600px;
+    height: 500px;
+    object-position: 40px 60px;
+}
+
+.cafe {
+    width: 410px;
+    height: 630px;
+    margin-top: 50px;
+}
+
+.cafe_desc {
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IM Fell English', serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    border:7px double #000;
+    border-radius: 70px;
+    background-image: url(../images/tag.jpg);
+    margin-bottom: 150px;
+    margin-right: 200px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1500px;
+    margin: auto;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    padding: 50px;
+}
+
+.titulo {
+    width: 450px;
+    font-size: 50px;
+    text-align: start;
+    margin: 30px;
+    color: #000;
+}
+
+.desc {
+    width: 400px;
+    text-align: left;
+    font-size: 30px;
+    margin: 30px;
+    color: #666666;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    border: none;
+    background-color: #e4bb89;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #f7deba;
+}
+
+.adorno {
+    justify-content: center;
+    width: 1500px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.divisor {
+    display: flex;
+    justify-content: center;
+}
+
+
+
